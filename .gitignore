@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+.venv
+venv/
+*.egg-info/
+build/
+dist/
+*.pth
+.ipynb_checkpoints/
+__pycache__/
+*.pt
+*.pth
+*.log
+.DS_Store
+.env
+.venv/
+.idea/
+.vscode/
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+

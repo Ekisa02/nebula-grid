@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nebula-grid"
+version = "0.1.0"
+description = "Distributed inference orchestration with FastAPI and PyTorch"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.78.0"
+uvicorn = "^0.17.0"
+httpx = "^0.23.0"
+torch = "^1.12.0"
+numpy = "^1.22.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

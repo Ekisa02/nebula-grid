@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  orchestrator:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.orchestrator
+    ports:
+      - "8000:8000"
+  worker1:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.worker
+    environment: {}
+    depends_on:
+      - orchestrator
+    ports:
+      - "8100:8100"
